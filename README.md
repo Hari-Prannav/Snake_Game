@@ -19,6 +19,7 @@ The player controls a snake that grows longer as it eats food, while avoiding co
 ## Project structure
 
 src/
-SnakeGame.java # main class, creates window
-GamePanel.java # rendering, game loop, keyboard input
-Snake.java # snake position & movement logic
+  SnakeGame.java   # Main class, creates the game window
+  GamePanel.java   # Handles rendering, game loop, and keyboard input
+  Snake.java       # Manages snake position, movement, and collision logic
+
