@@ -18,8 +18,16 @@ The player controls a snake that grows longer as it eats food, while avoiding co
 
 ## Project structure
 
-src/
-  - SnakeGame.java   # Main class, creates the game window
-  - GamePanel.java   # Handles rendering, game loop, and keyboard input
-  - Snake.java       # Manages snake position, movement, and collision logic
+Snake/
+  src/
+    demo/
+      GameFrame.java   # Creates the main window and sets up the game panel
+      GamePanel.java   # Handles rendering, game loop, and keyboard input
+      SnakeGame.java   # Contains the main method to launch the game
+  module-info.java     # Java module declaration (if used)
+  .classpath           # Eclipse/IDE config
+  .project             # Eclipse/IDE config
+  .gitignore           # Git ignored files
+  README.md            # Project documentation
+
 
